@@ -11,7 +11,7 @@ def Launch_Browser(context):
 @when(u'Open Amazon Home Page')
 def Home_Page(context):
     # raise NotImplementedError(u'STEP: When Open Amazon Home Page')
-    context.driver.get("https://www.amazon.in/")
+    context.driver.get("https://www.amazon.co.uk/")
     # sleep(2)
 
 
